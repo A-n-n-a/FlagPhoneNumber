@@ -5,7 +5,7 @@ public struct FPNCountry: Equatable {
 	public var code: FPNCountryCode
 	public var name: String
 	public var phoneCode: String
-	var flag: UIImage?
+	public var flag: UIImage?
 
 	init(code: String, name: String, phoneCode: String) {
 		self.name = name
